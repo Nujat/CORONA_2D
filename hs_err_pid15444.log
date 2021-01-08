@@ -1,0 +1,32 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000000006f6cc138, pid=15444, tid=17788
+#
+# JRE version: Java(TM) SE Runtime Environment (10.0.2+13) (build 10.0.2+13)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (10.0.2+13, mixed mode, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x36c138]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Djava.library.path=D:\eclipse\2D\Natives;D:\eclipse\2D\Natives -Dfile.encoding=Cp1252 org.graphics.Renderer
+
+Host: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz, 4 cores, 7G,  Windows 10 , 64 bit Build 17763 (10.0.17763.1158)
+Time: Sat Aug 29 23:43:27 2020 Bangladesh Standard Time elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000027ad664f800):  JavaThread "main" [_thread_in_vm, id=17788, stack(0x000000ddc2b00000,0x000000ddc2c00000)]
+
+Stack: [0x000000ddc2b00000,0x000000ddc2c00000],  sp=0x000000ddc2bf7a30,  free space=990k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x36c138]
+V  [jvm.dll+0x5a00d2]
+V  [jvm.dll+0x36bfce]
